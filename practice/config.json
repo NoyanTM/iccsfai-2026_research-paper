@@ -1,0 +1,63 @@
+{
+    "headers": {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0"},
+    "is_compressed": false,
+    "retries": 5,
+    "wikipedia_links": [
+        {
+            "type": "android_compatible_smartphones",
+            "latest": "https://en.wikipedia.org/wiki/List_of_Android_smartphones",
+            "title": "List_of_Android_smartphones",
+            "oldid": "1348717024"
+        },
+        {
+            "type": "android_versions",
+            "latest": "https://en.wikipedia.org/wiki/Android_version_history",
+            "title": "Android_version_history",
+            "oldid": "1348832522"
+        },
+        {
+            "type": "android_custom_distributions",
+            "latest": "https://en.wikipedia.org/wiki/List_of_custom_Android_distributions",
+            "title": "",
+            "oldid": ""
+        },
+        {
+            "type": "mobile_based_os",
+            "latest": "https://en.wikipedia.org/wiki/Comparison_of_mobile_operating_systems",
+            "title": "",
+            "oldid": ""
+        }
+    ],
+    "tests": {
+        "random_seed": 42,
+        "test_version_normalization": {
+            "test_major_specifier": {
+                "versions": 100,
+                "major_versions": [0, 9]
+            },
+            "test_major_and_minor_specifier": {
+                "versions": 100,
+                "major_versions": [0, 9],
+                "minor_versions": [0, 9]
+            },
+            "test_major_minor_patch_specifiers": {
+                "versions": 100,
+                "major_versions": [0, 9],
+                "minor_versions": [0, 9],
+                "patch_versions": [0, 9]
+            }
+        },
+        "test_version_matching": {
+            "ranges": [
+                ["0.0.3", "0.5.5"],
+                ["0.5.5", "1.8.4"],
+                ["1.8.4", "2.1.0"],
+                ["2.1.0", "3.0.5"],
+                ["3.0.5", "4.2.0"],
+                ["4.2.0", "5.5.9"],
+                ["5.5.9", "7.0.0"],
+                ["7.0.0", "9.0.0"]
+            ]
+        }
+    }
+}

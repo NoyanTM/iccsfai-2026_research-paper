@@ -1,0 +1,5 @@
+venv
+.venv
+/practice/data
+/drafts
+__pycache__
